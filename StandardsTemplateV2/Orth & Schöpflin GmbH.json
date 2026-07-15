@@ -1,0 +1,45 @@
+{"tenantFilter": [
+        {"value":"9485240f-c0d5-48bf-aa48-9c48507720b8","label":"MSP_StepNet","type":"Group"
+        }
+    ],"excludedTenants":"excludedTenants","description":"description","templateName":"[STEP] Baseline","standards": {"AuditLog": {"action": [
+                {"label":"Alert","value":"warn"
+                }
+            ]
+        },"DisableReshare": {"action": [
+                {"label":"Report","value":"Report"
+                }
+            ]
+        },"DefaultSharingLink": {"action": [
+                {"label":"Report","value":"Report"
+                }
+            ],"standards": {"DefaultSharingLink": {"SharingLinkType": {"label":"Internal - Only people in your organization","value":"Internal"
+                    }
+                }
+            }
+        },"sharingCapability": {"action": [
+                {"label":"Alert","value":"warn"
+                }
+            ],"standards": {"sharingCapability": {"Level": {"label":"Users can share only with people in the organization. No external sharing is allowed.","value":"disabled"
+                    }
+                }
+            }
+        },"DisableAppCreation": {"action": [
+                {"label":"Alert","value":"warn"
+                }
+            ]
+        },"GuestInvite": {"action": [
+                {"label":"Alert","value":"warn"
+                }
+            ],"standards": {"GuestInvite": {"allowInvitesFrom": {"label":"Admins and Guest inviters","value":"adminsAndGuestInviters"
+                    }
+                }
+            }
+        },"TeamsGuestAccess": {"action": [
+                {"label":"Report","value":"Report"
+                }
+            ],"standards": {"TeamsGuestAccess": {"AllowGuestUser": false
+                }
+            }
+        }
+    },"runManually": true,"isDriftTemplate":"isDriftTemplate"
+}
