@@ -1,9 +1,0 @@
-{
-  "PartitionKey": "CATemplate",
-  "RowKey": "0e674b20-0ba6-43b6-a444-85e6a6ae2b31",
-  "GUID": "0e674b20-0ba6-43b6-a444-85e6a6ae2b31",
-  "JSON": "{\"id\":\"0d89723e-bef2-4f46-9146-97818782c29f\",\"displayName\":\"POL-CA-003_All.AllUsers-MFA-4-All-Users\",\"createdDateTime\":\"2026-05-21T06:13:04.076243Z\",\"modifiedDateTime\":\"2026-10-15T06:29:50.6861296Z\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"userRiskLevels\":[],\"signInRiskLevels\":[],\"clientAppTypes\":[\"all\"],\"platforms\":null,\"locations\":null,\"times\":null,\"deviceStates\":null,\"devices\":null,\"clientApplications\":null,\"agents\":null,\"actionsAndDestinations\":null,\"applications\":{\"includeApplications\":[\"All\"],\"excludeApplications\":[],\"includeUserActions\":[],\"includeAgentActions\":[],\"includeAuthenticationContextClassReferences\":[],\"applicationFilter\":null},\"users\":{\"includeUsers\":[\"All\"],\"excludeUsers\":[],\"includeGroups\":[],\"excludeGroups\":[],\"includeRoles\":[],\"excludeRoles\":[\"d29b2b05-8046-44ba-8758-1e26182fcf32\"],\"includeGuestsOrExternalUsers\":null,\"excludeGuestsOrExternalUsers\":null}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"mfa\"],\"customAuthenticationFactors\":[],\"termsOfUse\":[],\"authenticationStrength@odata.context\":\"https://graph.microsoft.com/beta/$metadata#conditionalAccess/policies('0d89723e-bef2-4f46-9146-97818782c29f')/grantControls/authenticationStrength/$entity\",\"authenticationStrength\":null},\"LocationInfo\":[]}",
-  "Package": "[List+Lohr] Conditional Access Policypack",
-  "SHA": "09240fb6ab1a01c7ba8d6b1bfa86d7da634f850e",
-  "Source": "llmuster.onmicrosoft.com"
-}
